@@ -1,0 +1,170 @@
+*{
+   margin: 0px;
+   border: 0px;
+   padding: 0px;
+    font-family: cursive;
+}
+
+
+header {
+    background-color: #bc7d4a; 
+    width: 100%;
+    height: 60px;
+    color: white;
+}
+
+header h2 {
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    text-shadow: 50px;
+}
+
+header h2:hover {
+    color: rgb(23, 15, 3);
+}
+
+section h3, h2 {
+    text-align: center;
+
+}
+
+button {
+    color: rgb(221, 136, 7);
+    padding: 5px;
+    background-color: rgb(250, 249, 249); 
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+
+button:hover {
+    background-color: rgb(3, 3, 3);
+}
+
+footer{
+    background-color: #bc7d4a;
+}
+
+footer h4, a{
+    width: 100%;
+    height: 40px;
+    color: white;
+    text-align: center;
+}
+
+footer h4:hover, p:hover {
+    color: rgb(17, 12, 4);
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url('https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=754&fit=clip');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row {
+    height: 500px; 
+    width: 100%;
+    background-color: rgb(187, 136, 74);
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.col{
+    height: 400px;
+    width: 210px;
+    background-color: rgb(141, 95, 36);
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    /* padding: 20px;*/
+     border: 3px solid rgb(234, 226, 226);
+     
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    background-color: #bc7d4a;
+    display: flex;
+    justify-content: center;
+}
+
+footer a:hover{
+    color: black;
+}
+
+@media screen and (max-width: 400px)
+{
+    header{
+        width: 400px;
+    }
+
+    .banner{
+        width: 400px;
+        height: 500px;
+    }
+
+    .row{
+        width: 400px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        height: auto;
+        width: 300px;
+        margin: 20px;
+    }
+
+    .col button{
+        margin-left: 120px;
+        margin-bottom: 30px;
+    }
+    footer{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    header{
+        width: 800px;
+    }
+
+    .banner{
+        width: 800px;
+        height: 500px;
+    }
+
+    .row {
+        width: 800px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap; 
+    }
+    
+    .col {
+        height: 450px;
+        width: 250px;
+        margin: 20px;
+    }
+    
+
+    .col button{
+       margin: 100px;
+    }
+    footer{
+        width: 800px;
+    }
+}
+
+
+
+
